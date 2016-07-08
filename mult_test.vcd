@@ -1,0 +1,31 @@
+$date
+	Fri Apr 17 18:05:50 2015
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mult_tb $end
+$scope module m01 $end
+$var wire 4 ! a [3:0] $end
+$var wire 4 " b [3:0] $end
+$var wire 4 # out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 #
+b1 "
+b1 !
+$end
+#50
+b10 "
+b0 #
+b1000 !
+#100
+b100 #
+b10 !
+#150
